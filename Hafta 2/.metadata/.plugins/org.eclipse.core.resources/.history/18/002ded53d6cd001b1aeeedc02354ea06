@@ -1,0 +1,107 @@
+package ýfElse;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int not = 70;
+		if(not>=50) {
+			System.out.println("Geçti");
+		}
+		else {
+			System.out.println("Kaldý");
+		}
+		System.out.println("-----------------");
+		
+		int sayi1=20, sayi2=30;
+		if(sayi1==sayi2) {
+			System.out.println("1. sayi büyüktür");
+		}
+		else {
+			System.out.println("Eþit deðildir");
+		}
+		System.out.println("-----------------");
+		
+		int sayi3=20, sayi4=30;
+		if(sayi3>sayi4) {
+			System.out.println(sayi3);
+		}
+		else {
+			System.out.println(sayi4);
+		}
+		System.out.println("-----------------");
+		
+		int sayi5 = 90;
+		if(sayi5%2==0) {
+			System.out.println("sayi çifttir");
+		}
+		else {
+			System.out.println("sayý tektir");
+		}
+		System.out.println("-----------------");
+		
+		int not1=60;
+		if(not1<=100 && not1>=90) {
+			System.out.println("AA");
+		}
+		else if(not1<90 && not1>=70){
+			System.out.println("BB");
+		}
+		else if(not1<70 && not1>=50){
+			System.out.println("CC");
+		}
+		else if(not<50 && not1>=30){
+			System.out.println("DD");
+		}
+		else{
+			System.out.println("FF");
+		}
+		
+		System.out.println("-----------------");
+		
+		int dogru = 80;
+		int yanlýs = 40;
+		float net = dogru-(yanlýs/4);
+		System.out.println("Toplam net sayýsý:"+net);
+		if(net>=85) {
+			System.out.println("çok baþarýlý");
+		}
+		else if(net<85 && net>=75){
+			System.out.println("küçük ise");
+		}
+		else if(net<75 && net>=55){
+			System.out.println("orta seviye");
+		}
+		else{
+			System.out.println("kötü seviye");
+		}
+		
+		System.out.println("-----------------");
+		
+		int ogrenci1 = 90;
+		int ogrenci2 = 10;
+		int ogrenci3 = 95;
+		
+		
+		if(ogrenci1>ogrenci2 && ogrenci1>ogrenci3) {
+			
+			System.out.println("En Yüksek Not = " + ogrenci1);
+		}
+		else if(ogrenci2>ogrenci1 && ogrenci2>ogrenci3) {
+			System.out.println("En Yüksek Not = " + ogrenci2);
+		}
+		else {
+			System.out.println("En Yüksek Not = " + ogrenci3);
+		}
+		
+		System.out.println("-----------------");
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
