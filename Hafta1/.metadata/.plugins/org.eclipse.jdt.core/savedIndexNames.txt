@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\javaEgitimDersNotlari\Hafta1\.metadata\.plugins\org.eclipse.jdt.core
+2476748509.index
+4284683455.index
+1697916580.index
