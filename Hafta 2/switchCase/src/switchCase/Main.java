@@ -36,7 +36,7 @@ public class Main {
 	        *  Switch case kullanarak 12 ay için case metodlarý oluþturun.
 	        *  Seçilmiþ olan ay’ý ekrana yazdýrýn.*/
 	       
-	       int ay = 3;
+	       int ay = 11;
 	       
 	       switch(ay){
            case 1:
@@ -52,28 +52,28 @@ public class Main {
                System.out.println("Nisan");
                break;
            case 5:
-               System.out.println("Ocak");
+               System.out.println("Mayýs");
                break;
            case 6:
-               System.out.println("Ocak");
+               System.out.println("Haziran");
                break;
            case 7:
-               System.out.println("Ocak");
+               System.out.println("Temmuz");
                break;
            case 8:
-               System.out.println("Ocak");
+               System.out.println("Aðustos");
                break;
            case 9:
-               System.out.println("Ocak");
+               System.out.println("Eylül");
                break;
            case 10:
-               System.out.println("Ocak");
+               System.out.println("Ekim");
                break;
            case 11:
-               System.out.println("Ocak");
+               System.out.println("Kasým");
                break;
            case 12:
-               System.out.println("Ocak");
+               System.out.println("Aralýk");
                break;
 	       
 	       } 
