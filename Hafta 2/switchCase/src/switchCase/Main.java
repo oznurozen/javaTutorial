@@ -36,43 +36,43 @@ public class Main {
 	        *  Switch case kullanarak 12 ay için case metodlarý oluþturun.
 	        *  Seçilmiþ olan ay’ý ekrana yazdýrýn.*/
 	       
-	       String ay = "Mart";
+	       int ay = 3;
 	       
 	       switch(ay){
-           case "Ocak":
+           case 1:
                System.out.println("Ocak");
                break;
-           case "Þubat":
+           case 2:
                System.out.println("Þubat");
                break;
-           case "Mart":
+           case 3:
                System.out.println("Mart");
                break;
-           case "Nisan":
+           case 4:
                System.out.println("Nisan");
                break;
-           case "Mayýs":
+           case 5:
                System.out.println("Ocak");
                break;
-           case "Haziran":
+           case 6:
                System.out.println("Ocak");
                break;
-           case "Temmuz":
+           case 7:
                System.out.println("Ocak");
                break;
-           case "Aðustos":
+           case 8:
                System.out.println("Ocak");
                break;
-           case "Eylül":
+           case 9:
                System.out.println("Ocak");
                break;
-           case "Ekim":
+           case 10:
                System.out.println("Ocak");
                break;
-           case "Kasým":
+           case 11:
                System.out.println("Ocak");
                break;
-           case "Aralýk":
+           case 12:
                System.out.println("Ocak");
                break;
 	       
@@ -103,7 +103,7 @@ public class Main {
 	           default : 
 	               System.out.println("Çift Sayýdýr");
 	       }
-	       
+	       System.out.println("---------------");
 	       
 	       /*Odev3:
 	        * Switch case i kullanarak girilen string ifade ile ay verisi oluþturun. Girilen ay’ýn kaçýncý ay olduðunu ekran yazdýran programý yazýnýz.*/
