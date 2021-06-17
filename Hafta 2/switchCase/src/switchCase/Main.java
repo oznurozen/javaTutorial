@@ -1,0 +1,152 @@
+package switchCase;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//SORU 1
+	       /*Switch Case kullanarak 1’ den 10 a kadar case oluþturun ve 
+	        tanýmlanmýþ olan sayýnýn kaç olduðunu ekrana yazdýrýn. */
+	       int sayi = 1;
+	       switch(sayi){
+	           case 1:
+	               System.out.println(1);
+	               break;
+	           
+	           case 2:
+	               System.out.println(2);
+	               break;
+	               
+	           case 3:
+	               System.out.println(3);
+	               break;
+	               
+	           case 4:
+	               System.out.println(4);
+	               break;
+	               
+	           case 5:
+	               System.out.println(5);
+	               break;
+	           
+	           default : 
+	               System.out.println("Sayý Bulunamadý");
+	       }
+	       System.out.println("---------------");
+	       /*Odev1:
+	        *  Switch case kullanarak 12 ay için case metodlarý oluþturun.
+	        *  Seçilmiþ olan ay’ý ekrana yazdýrýn.*/
+	       
+	       String ay = "Mart";
+	       
+	       switch(ay){
+           case "Ocak":
+               System.out.println("Ocak");
+               break;
+           case "Þubat":
+               System.out.println("Þubat");
+               break;
+           case "Mart":
+               System.out.println("Mart");
+               break;
+           case "Nisan":
+               System.out.println("Nisan");
+               break;
+           case "Mayýs":
+               System.out.println("Ocak");
+               break;
+           case "Haziran":
+               System.out.println("Ocak");
+               break;
+           case "Temmuz":
+               System.out.println("Ocak");
+               break;
+           case "Aðustos":
+               System.out.println("Ocak");
+               break;
+           case "Eylül":
+               System.out.println("Ocak");
+               break;
+           case "Ekim":
+               System.out.println("Ocak");
+               break;
+           case "Kasým":
+               System.out.println("Ocak");
+               break;
+           case "Aralýk":
+               System.out.println("Ocak");
+               break;
+	       
+	       } 
+	       
+	       System.out.println("---------------");
+	       
+	       /*Odev2:
+	        * Switch case mantýðý ile 1 ila 10 arasýnda girilmiþ olan bir sayýnýn çift ve tek olma durumuna bakýnýz.*/
+	       int sayii = 1;
+	       switch(sayii){
+	           case 1:
+	          		System.out.println("sayý tektir");
+	          		break;
+	           case 3:
+	               System.out.println("sayý tektir");
+	               break;
+	           case 5:
+	               System.out.println("sayý tektir");
+	               break;
+	           case 7:
+	               System.out.println("sayý tektir");
+	               break;
+	           case 9:
+	               System.out.println("sayý tektir");
+	               break;
+	           
+	           default : 
+	               System.out.println("Çift Sayýdýr");
+	       }
+	       
+	       
+	       /*Odev3:
+	        * Switch case i kullanarak girilen string ifade ile ay verisi oluþturun. Girilen ay’ýn kaçýncý ay olduðunu ekran yazdýran programý yazýnýz.*/
+	       String ay1 = "Ocak";
+	       switch(ay1){
+           case "Ocak":
+               System.out.println("1.ay");
+               break;
+           case "Þubat":
+               System.out.println("2.ay");
+               break;
+           case "Mart":
+               System.out.println("3.ay");
+               break;
+           case "Nisan":
+               System.out.println("4.ay");
+               break;
+           case "Mayýs":
+               System.out.println("5.ay");
+               break;
+           case "Haziran":
+               System.out.println("6.ay");
+               break;
+           case "Temmuz":
+               System.out.println("7.ay");
+               break;
+           case "Aðustos":
+               System.out.println("8.ay");
+               break;
+           case "Eylül":
+               System.out.println("9.ay");
+               break;
+           case "Ekim":
+               System.out.println("10.ay");
+               break;
+           case "Kasým":
+               System.out.println("11.ay");
+               break;
+           case "Aralýk":
+               System.out.println("12.ay");
+               break;
+	       
+	       } 
+	}
+
+}
