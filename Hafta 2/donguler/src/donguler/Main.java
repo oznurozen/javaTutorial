@@ -38,7 +38,6 @@ public class Main {
 			k++;
 		}
 		System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyük deðildir ");
-		
 	}
 
 }
