@@ -31,19 +31,13 @@ public class Main {
 		
 		int i = 10, j=0, k = 0;
 		
-		while(i>0 && j<10 ) {
+		while(i>j) {
+			System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyüktür ");
 			i=i-2;
 			j=j+2;
 			k++;
-			if(i>j){
-				System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyüktür ");
-			}
-			else {
-				System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyük deðildir ");
-			}
-			
 		}
-		
+		System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyük deðildir ");
 		
 	}
 
