@@ -37,15 +37,7 @@ public class Main {
 			j=j+2;
 			k++;
 		}
-		System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyük deðildir ");
-		
-		System.out.println("------------------");
-		int dongu = 0;
-		while(dongu<10) {
-			System.out.println("Hello world!");
-			dongu++;
-		}
-		
+		System.out.println(k + " i deðeri: " + i + " j deðeri: " +j + " i j’den büyük deðildir ");	
 	}
 
 }
