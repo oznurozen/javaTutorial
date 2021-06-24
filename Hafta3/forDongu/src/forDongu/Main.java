@@ -62,22 +62,25 @@ public class Main {
 	      System.out.println("------------------");
 	      
 	      //ODEV: 5’e kadar olan rakamlarý tek tek ekrana basan programý for ve switch case metodu kullanarak yazýnýz.
-	      for(int s=1; s<=5; s++) {
+	      for(int s=5; s<=5; s++) {
 	    	  switch (s) {
+	    	case 0:
+				System.out.println(0);
+				break;
 			case 1:
-				System.out.println(s);
+				System.out.println(1);
 				break;
 			case 2:
-				System.out.println(s);
+				System.out.println(2);
 				break;
 			case 3:
-				System.out.println(s);
+				System.out.println(3);
 				break;
 			case 4:
-				System.out.println(s);
+				System.out.println(4);
 				break;
 			case 5:
-				System.out.println(s);
+				System.out.println(5);
 				break;
 
 
