@@ -82,11 +82,22 @@ public class Main {
 			case 5:
 				System.out.println(5);
 				break;
-
-
 			}
 				
 			}
+	      System.out.println("------------------");
+	      //ÝC ÝCE FOR DÖNGÜSÜ
+	      
+	      for(int b=0; b<=4; b++){
+	    	  
+	          for(int c=0; c<=b; c++){
+	              System.out.print("*");
+	          }
+	          System.out.println();
+	      }
+	  
+	      
+	      
 	}
 
 }
