@@ -86,8 +86,19 @@ public class Main {
 				
 			}
 	      System.out.println("------------------");
-	      //ÝC ÝCE FOR DÖNGÜSÜ
 	      
+	    //1'den 5 e kadar sutun da satýrda 1-10 arasý ve her satýrda bir sonraki sayý kadar artan programý yazýnýz.
+          
+	       for(int i=1; i<=5; i++){
+	           System.out.println();
+	           for(int j=1; j<=10; j++){
+	               System.out.print((i*j)+ " ");
+	           }
+	       }
+	       System.out.println("------------------");
+	       
+	      //ÝC ÝCE FOR DÖNGÜSÜ
+	    //iç içe for döngüsü yýdýz örneði;
 	      for(int b=0; b<=4; b++){
 	    	  
 	          for(int c=0; c<=b; c++){
@@ -95,6 +106,11 @@ public class Main {
 	          }
 	          System.out.println();
 	      }
+	      //Geliþmiþ for döngüsü
+	      int [] dizi={1,2,3,4,5};
+	        for(int i: dizi){
+	            System.out.println(i+""); 
+	        }
 	  
 	      
 	      
