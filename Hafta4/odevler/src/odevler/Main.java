@@ -6,11 +6,13 @@ public class Main {
 		/*aylık ücretler ve gelir vergilerini tutabildiğiniz iki adet diziniz olsun.
 		 *  aylık ücretler dizisi içerisine 3 adet ondalıklı ücretler giriniz. gelir
 		 *   verginizi %30 üzerinden hesaplayabilirsiniz. Örneğin aylık ücret * 30 / 100 
-		 *   işlemi şeklinde. :) Sonrasında ücretleri ve vergilerini ekrana çıktı olarak veriniz.*/
+		 *   işlemi şeklinde. Sonrasında ücretleri ve vergilerini ekrana çıktı olarak veriniz.*/
 		
-		int ucretler[] = {100,1000,10000};
-		int gelir = (ucretler[0]*30)/100;
-			System.out.println("Ücret :"+gelir);
+		double ucretler[] = {100.20,1000.50,10000.80};
+		double gelir = ucretler[1]*30/100;
+		for(double i:ucretler)	
+			System.out.println("Ücret: "+i + " Gelir: " + gelir);
+				
 			
 			System.out.println("----------------");
 			
