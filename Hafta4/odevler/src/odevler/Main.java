@@ -8,12 +8,17 @@ public class Main {
 		 *   verginizi %30 üzerinden hesaplayabilirsiniz. Örneðin aylýk ücret * 30 / 100 
 		 *   iþlemi þeklinde. Sonrasýnda ücretleri ve vergilerini ekrana çýktý olarak veriniz.*/
 		
-		double ucretler[] = {100.20,1000.50,10000.80};
-		double gelir = ucretler[1]*30/100;
-		for(double i:ucretler)	
-			System.out.println("Ücret: "+i + " Gelir: " + gelir);
-				
-			
+		double [] ucretler = new double[3];
+		ucretler[0]=200.85;
+		ucretler[1]=500.80;
+		ucretler[2]=850.95;
+		
+		double [] gelirVergisi = new double[3];
+		for(int i=0; i<ucretler.length; i++) {
+			gelirVergisi[i] = ucretler[i]*30/100;
+			System.out.println(ucretler[i] + " gelir vergisi: " + gelirVergisi[i]);
+		}
+		
 			System.out.println("----------------");
 			
 		/*Metinsel ifadeler barýndýran bir dizi oluþturmanýzý ve tüm bu diziyi geliþmiþ 
