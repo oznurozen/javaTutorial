@@ -10,7 +10,8 @@ public class Main {
 		        Arrays.sort(arama);
 		        int deger = Arrays.binarySearch(arama,40);
 		        System.out.println(deger);
-		    
+		        
+		       
 
 	}
 
