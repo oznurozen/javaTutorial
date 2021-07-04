@@ -1,5 +1,7 @@
 package odevler;
 
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -26,6 +28,24 @@ public class Main {
 			String dizi[] = {"Ali", "Musa","Duygu"};
 			for(String i:dizi)
 				System.out.println(i);
+			
+			System.out.println("----------------");
+		/*Beþ ayrý dizi tanýmlayalým.
+		1. dizinin elemanlarý Pazartesi, Salý, Çarþamba olsun.
+		2. dizinin  elemanlarý 1. dizi ile ayný olsun.
+		3. dizinin  elemanlarý Cumartesi ve Pazar olsun.
+		4. dizinin  elemanlarý PAZARTESÝ, SALI ve ÇARÞAMBA olsun.
+		5. diziyi de 2. diziyi ona atayarak tanýmlayalým.
+		Sonra dizileri birbirleriyle sýrasýyla karþýlaþtýralým sonrasýnda da 1. dizideki salý ifadesinin kaçýncý indis deðerine sahip olduðunu bulalým.*/
+			
+			String [] hafta1 = {"Pazartesi","Salý","Carþamba"};
+			String [] hafta2 = {"Pazartesi","Salý","Çarþamba"};
+			String [] hafta3 = {"Cumartesi","PAZAR"};
+			String [] hafta4 = {"PAZARTESÝ","SALI","ÇARÞAMBA"};
+			String [] hafta5 = hafta2;
+			System.out.println("1." + Arrays.equals(dizi1, dizi2));
+			System.out.println("2." + Arrays.equals(dizi1, dizi3));
+			System.out.println("3." + Arrays.equals(dizi4, dizi5));
 	}
 
 }
