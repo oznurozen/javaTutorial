@@ -52,21 +52,3 @@ public class Main {
 	}
 
 }
-
-/*String metin = "Merhaba Java Dersi";
-	      char karakterler = 'a' ;
-	      int karakterSayisi = 0;
-	      for(int k=0; k<metin.length(); k++){
-	    	  if(karakterler==metin.charAt(k)) {
-	    		  karakterSayisi++;
-	    	  }
-	      }
-	      System.out.println(karakterler + " " + metin+" içerisinde " + karakterSayisi + " tanedir.");
-	      
-	      *
-	      *
-	      *String strDizi[] = {"Edirne"," Afyon", "Adapazarı", "Beşiktaş"};
-        System.out.println("String Dizi: " + Arrays.toString(strDizi));
-        Arrays.sort(strDizi);
-        System.out.println("Sıralı Dizi:"  + Arrays.toString(strDizi));
-        */
