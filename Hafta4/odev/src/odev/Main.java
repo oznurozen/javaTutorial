@@ -36,8 +36,15 @@ public class Main {
 		
 		
 	}
-	public static void kelimeSayisi() {
-		
+	public static void kelimeSayisi() { //kaç tane boþluk sayýsý varsa ondan bir fazla kelime bulunur.Bu yüzden boslukSayýsý 0 dan deðil 1 den baþladý.
+		char bosluk =' ' ;
+		int boslukSayisi = 1;
+		for(int k=0; k<metin.length(); k++){
+	    	  if(bosluk==metin.charAt(k)) {
+	    		  boslukSayisi++;
+	    	  }
+		 }
+		System.out.println(bosluk + " " + metin+" içerisinde " + boslukSayisi + " kelime vardýr.");	
 
     }
 		
