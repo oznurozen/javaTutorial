@@ -24,11 +24,12 @@ public class Main {
 			else{
 				System.out.println("Kaldýnýz");
 			}
-		 
+		 	/*vücut kitle indeksi hesaplama örneði.*/
 		    System.out.println("Kilonuzu Giriniz : ");
-	        double kilo = (double) kullaniciVerisi.nextDouble();
+	        double kilo = kullaniciVerisi.nextDouble();
 	        System.out.println("Boyunuzu Giriniz : ");
-	        double boy = (double) kullaniciVerisi.nextDouble();
+	        double boy = kullaniciVerisi.nextDouble();
+	        boy = boy/100;
 	        double vki=kilo/(boy*boy);
 	        System.out.println("Sonuç:" + vki);
 	        if(vki<18.5) {
