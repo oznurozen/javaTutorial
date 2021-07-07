@@ -26,9 +26,9 @@ public class Main {
 			}
 		 
 		    System.out.println("Kilonuzu Giriniz : ");
-	        double kilo = (int) kullaniciVerisi.nextDouble();
+	        double kilo = (double) kullaniciVerisi.nextDouble();
 	        System.out.println("Boyunuzu Giriniz : ");
-	        double boy = (int) kullaniciVerisi.nextDouble();
+	        double boy = (double) kullaniciVerisi.nextDouble();
 	        double vki=kilo/(boy*boy);
 	        System.out.println("Sonuç:" + vki);
 	        if(vki<18.5) {
