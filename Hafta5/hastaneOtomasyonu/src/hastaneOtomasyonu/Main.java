@@ -14,29 +14,20 @@ public class Main {
 	public static void main(String[] args) {
 		 Scanner kullaniciVerisi = new Scanner(System.in);
 		 System.out.println("Adýnýzý Giriniz: ");
-         String isim = kullaniciVerisi.nextLine();
+         String isim = kullaniciVerisi.next();
          
          System.out.println("Soydýnýzý Giriniz: ");
-         String soyad = kullaniciVerisi.nextLine();
+         String soyad = kullaniciVerisi.next();
          
          System.out.println("TC: ");
-         Float tc = kullaniciVerisi.nextFloat();
+         long tc = kullaniciVerisi.nextLong();
 	     
          System.out.println("Telefon: ");
-         Float tel = kullaniciVerisi.nextFloat();
+         long tel = kullaniciVerisi.nextLong();
          
+         System.out.println("1.Kardiyoloji 2.Dahiliye  3.Göz Hastalýklarý  4.Cildiye  5.Ortopedi");
          System.out.println("Bölüm Seçiniz: ");
          int bolum = kullaniciVerisi.nextInt();
-         
-         
-         System.out.println("Randevu almak istediðiniz tarihi ve saati giriniz: ");
-         Short tarih = kullaniciVerisi.nextShort();
-         
-        
-  
-         
-         System.out.println("Randevunuz Oluþmuþtur.");
-         
          if(bolum==1) {
 	        	System.out.println("Kardiyoloji");
 	        }
@@ -53,7 +44,21 @@ public class Main {
 	        	System.out.println("Ortopedi");
 	        }
          
-         System.out.println(isim +" " + soyad + " " + bolum+" bölümüne "+tarih+ " tarihinde saat "+ " hastanemizde bulununuz.");
+         
+         System.out.println("Randevu almak istediðiniz tarihi giriniz: ");
+         String tarih = kullaniciVerisi.next();
+         
+         System.out.println("Randevu almak istediðiniz saati giriniz: ");
+         String saat = kullaniciVerisi.next();
+         
+        
+  
+         
+         System.out.println("Randevunuz Oluþmuþtur.");
+         
+         
+         
+         System.out.println(isim +" " + soyad + "\n " + bolum+" bölümüne "+tarih+ " tarihinde saat "+ saat+ " da hastanemizde bulununuz.");
          
          
 	}
