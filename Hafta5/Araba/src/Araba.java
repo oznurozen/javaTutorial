@@ -19,8 +19,8 @@ public class Araba {
 
 
 	public static void main(String[] args) {
-		Araba araba = new Araba();
-		araba.calistir();
+		Araba  mevcutKm = new Araba();
+		 mevcutKm.calistir();
 		
 		Araba yeniKmDeðeri = new Araba(1800);
 		yeniKmDeðeri.calistir();
