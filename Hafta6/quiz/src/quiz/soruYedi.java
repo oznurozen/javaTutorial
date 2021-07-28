@@ -9,12 +9,12 @@ public class soruYedi {
 		Scanner kullaniciVerisi = new Scanner(System.in);
 		 System.out.println("Bir veri giriniz.:");
 		 String veri = kullaniciVerisi.next();
-		 int say =1;
+		 int say =0;
 	        do{
 	            System.out.println(veri);
 	            say++;
 	        }
-	        while(say<=5);
+	        while(say<5);
 		
 		
 	
