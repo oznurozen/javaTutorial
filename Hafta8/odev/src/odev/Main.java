@@ -10,6 +10,7 @@ package odev;
 
 public class Main {
 	public static void canliTanimla(Hayvan canli) {
+		canli.isim();
 		canli.ses();
 		canli.tur();
 	}
