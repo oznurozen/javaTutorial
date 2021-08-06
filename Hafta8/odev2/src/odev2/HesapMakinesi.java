@@ -1,6 +1,6 @@
 package odev2;
 
-import java.awt.BorderLayout;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 
-public class Islem extends JFrame {
+public class HesapMakinesi extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField number1;
@@ -32,7 +32,7 @@ public class Islem extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Islem frame = new Islem();
+					HesapMakinesi frame = new HesapMakinesi();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -44,7 +44,8 @@ public class Islem extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Islem() {
+	public HesapMakinesi() {
+		setTitle("hesapmakinesi");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -55,11 +56,17 @@ public class Islem extends JFrame {
 		contentPane.setLayout(null);
 		
 		number1 = new JTextField();
+		number1.setForeground(Color.CYAN);
+		number1.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		number1.setBackground(Color.PINK);
 		number1.setBounds(64, 67, 130, 49);
 		contentPane.add(number1);
 		number1.setColumns(10);
 		
 		number2 = new JTextField();
+		number2.setForeground(Color.CYAN);
+		number2.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		number2.setBackground(Color.PINK);
 		number2.setBounds(243, 67, 130, 49);
 		contentPane.add(number2);
 		number2.setColumns(10);
@@ -113,9 +120,9 @@ public class Islem extends JFrame {
 		bolme = new JButton("/");
 		bolme.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int n1 = Integer.parseInt(number1.getText());
-				int n2 = Integer.parseInt(number2.getText());
-				int alinanDeger = (n1/n2);
+				double n1 = Integer.parseInt(number1.getText());
+				double n2 = Integer.parseInt(number2.getText());
+				double alinanDeger = (n1/n2);
 				label.setText(String.valueOf(alinanDeger));
 			}
 		});
