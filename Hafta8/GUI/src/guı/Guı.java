@@ -11,11 +11,13 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JCheckBoxMenuItem;
 
 public class Guý extends JFrame {
 
 	private JPanel contentPane;
-	private JButton buton1;
 
 	/**
 	 * Launch the application.
@@ -38,13 +40,13 @@ public class Guý extends JFrame {
 	 */
 	public Guý() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 399, 281);
+		setBounds(100, 100, 370, 281);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		buton1 = new JButton("Sayfa1");
+		JButton buton1 = new JButton("Sayfa1");
 		buton1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Guý2 sayfa2 = new Guý2();

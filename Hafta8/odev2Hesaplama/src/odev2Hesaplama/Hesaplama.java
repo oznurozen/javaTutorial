@@ -1,4 +1,4 @@
-package odev2;
+package odev2Hesaplama;
 
 
 import java.awt.EventQueue;
@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 
-public class HesapMakinesi extends JFrame {
+public class Hesaplama extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField number1;
@@ -32,7 +32,7 @@ public class HesapMakinesi extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					HesapMakinesi frame = new HesapMakinesi();
+					Hesaplama frame = new Hesaplama();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -44,7 +44,7 @@ public class HesapMakinesi extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public HesapMakinesi() {
+	public Hesaplama() {
 		setTitle("hesapmakinesi");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -120,8 +120,8 @@ public class HesapMakinesi extends JFrame {
 		bolme = new JButton("/");
 		bolme.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				double n1 = Integer.parseInt(number1.getText());
-				double n2 = Integer.parseInt(number2.getText());
+				double n1 = Double.parseDouble(number1.getText());
+				double n2 = Double.parseDouble(number2.getText());
 				double alinanDeger = (n1/n2);
 				label.setText(String.valueOf(alinanDeger));
 			}
